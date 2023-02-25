@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0124B2586204E1D7C9475DCA /* Pods_BallotBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F332A76853123812F03DED8D /* Pods_BallotBox.framework */; };
+		A102D52E29AA361500675655 /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102D52D29AA361500675655 /* QuestionTableViewCell.swift */; };
+		A1B8688629A9E95B00D03B03 /* CountyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B8688529A9E95B00D03B03 /* CountyViewController.swift */; };
+		A1B8688829A9E97100D03B03 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B8688729A9E97100D03B03 /* HomeViewController.swift */; };
+		A1B8688A29A9E99600D03B03 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B8688929A9E99600D03B03 /* QuizViewController.swift */; };
+		A1B8688C29A9E9A600D03B03 /* ToVoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B8688B29A9E9A600D03B03 /* ToVoteViewController.swift */; };
+		A1C4D60229A99D1700775A17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4D60129A99D1700775A17 /* AppDelegate.swift */; };
+		A1C4D60429A99D1700775A17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4D60329A99D1700775A17 /* SceneDelegate.swift */; };
+		A1C4D60629A99D1700775A17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4D60529A99D1700775A17 /* ViewController.swift */; };
+		A1C4D60929A99D1700775A17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C4D60729A99D1700775A17 /* Main.storyboard */; };
+		A1C4D60C29A99D1700775A17 /* BallotBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1C4D60A29A99D1700775A17 /* BallotBox.xcdatamodeld */; };
+		A1C4D60E29A99D1900775A17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C4D60D29A99D1900775A17 /* Assets.xcassets */; };
+		A1C4D61129A99D1900775A17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C4D60F29A99D1900775A17 /* LaunchScreen.storyboard */; };
+		A1C630D329AA1AF1003575D9 /* SmallCandidateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C630D229AA1AF1003575D9 /* SmallCandidateTableViewCell.swift */; };
+		A1C630D529AA2A3B003575D9 /* PassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C630D429AA2A3B003575D9 /* PassViewController.swift */; };
+		A1E1FFC329A9FF7400DE9B53 /* LargeCandidateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E1FFC229A9FF7400DE9B53 /* LargeCandidateTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0903FE900FB8121373507DBC /* Pods-BallotBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BallotBox.debug.xcconfig"; path = "Target Support Files/Pods-BallotBox/Pods-BallotBox.debug.xcconfig"; sourceTree = "<group>"; };
+		50E0E1E48841D20B51595FC6 /* Pods-BallotBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BallotBox.release.xcconfig"; path = "Target Support Files/Pods-BallotBox/Pods-BallotBox.release.xcconfig"; sourceTree = "<group>"; };
+		A102D52D29AA361500675655 /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
+		A1B8688529A9E95B00D03B03 /* CountyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountyViewController.swift; sourceTree = "<group>"; };
+		A1B8688729A9E97100D03B03 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A1B8688929A9E99600D03B03 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		A1B8688B29A9E9A600D03B03 /* ToVoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToVoteViewController.swift; sourceTree = "<group>"; };
+		A1C4D5FE29A99D1700775A17 /* BallotBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallotBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C4D60129A99D1700775A17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1C4D60329A99D1700775A17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A1C4D60529A99D1700775A17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1C4D60829A99D1700775A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1C4D60B29A99D1700775A17 /* BallotBox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BallotBox.xcdatamodel; sourceTree = "<group>"; };
+		A1C4D60D29A99D1900775A17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1C4D61029A99D1900775A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1C4D61229A99D1900775A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1C630D229AA1AF1003575D9 /* SmallCandidateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCandidateTableViewCell.swift; sourceTree = "<group>"; };
+		A1C630D429AA2A3B003575D9 /* PassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassViewController.swift; sourceTree = "<group>"; };
+		A1E1FFC229A9FF7400DE9B53 /* LargeCandidateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeCandidateTableViewCell.swift; sourceTree = "<group>"; };
+		F332A76853123812F03DED8D /* Pods_BallotBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BallotBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1C4D5FB29A99D1700775A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0124B2586204E1D7C9475DCA /* Pods_BallotBox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1C4D5F529A99D1600775A17 = {
+			isa = PBXGroup;
+			children = (
+				A1C4D60029A99D1700775A17 /* BallotBox */,
+				A1C4D5FF29A99D1700775A17 /* Products */,
+				F08F2A778F3D0D149528D739 /* Pods */,
+				CD6B28F2BFB8AE650DA52E32 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A1C4D5FF29A99D1700775A17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1C4D5FE29A99D1700775A17 /* BallotBox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1C4D60029A99D1700775A17 /* BallotBox */ = {
+			isa = PBXGroup;
+			children = (
+				A1C4D60129A99D1700775A17 /* AppDelegate.swift */,
+				A1C4D60329A99D1700775A17 /* SceneDelegate.swift */,
+				A1C4D60529A99D1700775A17 /* ViewController.swift */,
+				A1C4D60729A99D1700775A17 /* Main.storyboard */,
+				A1C630D429AA2A3B003575D9 /* PassViewController.swift */,
+				A1C630D229AA1AF1003575D9 /* SmallCandidateTableViewCell.swift */,
+				A1E1FFC229A9FF7400DE9B53 /* LargeCandidateTableViewCell.swift */,
+				A1B8688529A9E95B00D03B03 /* CountyViewController.swift */,
+				A1B8688729A9E97100D03B03 /* HomeViewController.swift */,
+				A1B8688929A9E99600D03B03 /* QuizViewController.swift */,
+				A102D52D29AA361500675655 /* QuestionTableViewCell.swift */,
+				A1B8688B29A9E9A600D03B03 /* ToVoteViewController.swift */,
+				A1C4D60D29A99D1900775A17 /* Assets.xcassets */,
+				A1C4D60F29A99D1900775A17 /* LaunchScreen.storyboard */,
+				A1C4D61229A99D1900775A17 /* Info.plist */,
+				A1C4D60A29A99D1700775A17 /* BallotBox.xcdatamodeld */,
+			);
+			path = BallotBox;
+			sourceTree = "<group>";
+		};
+		CD6B28F2BFB8AE650DA52E32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F332A76853123812F03DED8D /* Pods_BallotBox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F08F2A778F3D0D149528D739 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0903FE900FB8121373507DBC /* Pods-BallotBox.debug.xcconfig */,
+				50E0E1E48841D20B51595FC6 /* Pods-BallotBox.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1C4D5FD29A99D1700775A17 /* BallotBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C4D61529A99D1900775A17 /* Build configuration list for PBXNativeTarget "BallotBox" */;
+			buildPhases = (
+				9808E02A10510FE1E8D2756E /* [CP] Check Pods Manifest.lock */,
+				A1C4D5FA29A99D1700775A17 /* Sources */,
+				A1C4D5FB29A99D1700775A17 /* Frameworks */,
+				A1C4D5FC29A99D1700775A17 /* Resources */,
+				FD5C126D76F1E35826D7EAE0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BallotBox;
+			productName = BallotBox;
+			productReference = A1C4D5FE29A99D1700775A17 /* BallotBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1C4D5F629A99D1600775A17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A1C4D5FD29A99D1700775A17 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = A1C4D5F929A99D1600775A17 /* Build configuration list for PBXProject "BallotBox" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1C4D5F529A99D1600775A17;
+			productRefGroup = A1C4D5FF29A99D1700775A17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1C4D5FD29A99D1700775A17 /* BallotBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1C4D5FC29A99D1700775A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C4D61129A99D1900775A17 /* LaunchScreen.storyboard in Resources */,
+				A1C4D60E29A99D1900775A17 /* Assets.xcassets in Resources */,
+				A1C4D60929A99D1700775A17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9808E02A10510FE1E8D2756E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BallotBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD5C126D76F1E35826D7EAE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BallotBox/Pods-BallotBox-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BallotBox/Pods-BallotBox-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BallotBox/Pods-BallotBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1C4D5FA29A99D1700775A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C4D60629A99D1700775A17 /* ViewController.swift in Sources */,
+				A1B8688A29A9E99600D03B03 /* QuizViewController.swift in Sources */,
+				A1C4D60C29A99D1700775A17 /* BallotBox.xcdatamodeld in Sources */,
+				A1C4D60229A99D1700775A17 /* AppDelegate.swift in Sources */,
+				A1B8688629A9E95B00D03B03 /* CountyViewController.swift in Sources */,
+				A1C630D329AA1AF1003575D9 /* SmallCandidateTableViewCell.swift in Sources */,
+				A1C630D529AA2A3B003575D9 /* PassViewController.swift in Sources */,
+				A1E1FFC329A9FF7400DE9B53 /* LargeCandidateTableViewCell.swift in Sources */,
+				A1B8688C29A9E9A600D03B03 /* ToVoteViewController.swift in Sources */,
+				A102D52E29AA361500675655 /* QuestionTableViewCell.swift in Sources */,
+				A1C4D60429A99D1700775A17 /* SceneDelegate.swift in Sources */,
+				A1B8688829A9E97100D03B03 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1C4D60729A99D1700775A17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1C4D60829A99D1700775A17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1C4D60F29A99D1900775A17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1C4D61029A99D1900775A17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1C4D61329A99D1900775A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1C4D61429A99D1900775A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1C4D61629A99D1900775A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0903FE900FB8121373507DBC /* Pods-BallotBox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UBQY3492JQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BallotBox/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sharonda.BallotBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1C4D61729A99D1900775A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50E0E1E48841D20B51595FC6 /* Pods-BallotBox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UBQY3492JQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BallotBox/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sharonda.BallotBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1C4D5F929A99D1600775A17 /* Build configuration list for PBXProject "BallotBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C4D61329A99D1900775A17 /* Debug */,
+				A1C4D61429A99D1900775A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1C4D61529A99D1900775A17 /* Build configuration list for PBXNativeTarget "BallotBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C4D61629A99D1900775A17 /* Debug */,
+				A1C4D61729A99D1900775A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A1C4D60A29A99D1700775A17 /* BallotBox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A1C4D60B29A99D1700775A17 /* BallotBox.xcdatamodel */,
+			);
+			currentVersion = A1C4D60B29A99D1700775A17 /* BallotBox.xcdatamodel */;
+			path = BallotBox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A1C4D5F629A99D1600775A17 /* Project object */;
+}
